@@ -1,0 +1,174 @@
+{
+  "adminPasscodeHash": null,
+  "quizzes": [
+    {
+      "id": "quiz_1792922781553_105b7c15",
+      "title": "Kiểm tra Khảo sát Toán & Hóa",
+      "description": "Bài thi thử nghiệm chất lượng cao",
+      "hasPassword": false,
+      "password": "",
+      "durationMinutes": 15,
+      "maxAttempts": 1,
+      "maxScore": 10,
+      "scoringMode": "equal",
+      "passThresholdForSolutions": 8,
+      "showScoreAfterSubmit": true,
+      "openTime": null,
+      "closeTime": null,
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "order": 1,
+          "questionText": "Cho phản ứng 2H₂ + O₂ → 2H₂O. Tỉ lệ số phân tử H₂ : O₂ là?",
+          "options": [
+            {
+              "id": "A",
+              "label": "A",
+              "text": "2 : 1"
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "text": "1 : 2"
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "text": "1 : 1"
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "text": "2 : 3"
+            }
+          ],
+          "correctAnswer": "A",
+          "solution": "Theo phương trình hóa học, hệ số H2 là 2, O2 là 1. Tỉ lệ là 2:1.",
+          "points": 5,
+          "hasWarning": false
+        },
+        {
+          "id": "q2",
+          "order": 2,
+          "questionText": "Diện tích hình vuông cạnh a = 6 cm bằng bao nhiêu?",
+          "options": [
+            {
+              "id": "A",
+              "label": "A",
+              "text": "24 cm²"
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "text": "36 cm²"
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "text": "12 cm²"
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "text": "18 cm²"
+            }
+          ],
+          "correctAnswer": "B",
+          "solution": "S = a^2 = 6^2 = 36 cm2.",
+          "points": 5,
+          "hasWarning": false
+        }
+      ],
+      "createdAt": "2026-10-25T10:06:21.553Z",
+      "updatedAt": "2026-10-25T10:06:21.553Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_1792922781571_0daef523",
+      "quizId": "quiz_1792922781553_105b7c15",
+      "studentName": "Trần Thị Mai",
+      "sessionToken": "73cd9c75798adee351d3742b7989ad4a",
+      "startedAt": "2026-10-25T10:06:21.571Z",
+      "lastHeartbeatAt": "2026-10-25T10:06:21.571Z",
+      "durationSeconds": 240,
+      "status": "submitted",
+      "answers": {
+        "q1": "A",
+        "q2": "C"
+      },
+      "score": 5,
+      "maxScore": 10,
+      "correctCount": 1,
+      "totalQuestions": 2,
+      "passedThreshold": false,
+      "submittedAt": "2026-10-25T10:06:21.575Z",
+      "details": [
+        {
+          "questionId": "q1",
+          "questionText": "Cho phản ứng 2H₂ + O₂ → 2H₂O. Tỉ lệ số phân tử H₂ : O₂ là?",
+          "chosen": "A",
+          "correct": "A",
+          "isCorrect": true,
+          "pointsEarned": 5,
+          "maxPoints": 5,
+          "solution": "Theo phương trình hóa học, hệ số H2 là 2, O2 là 1. Tỉ lệ là 2:1."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Diện tích hình vuông cạnh a = 6 cm bằng bao nhiêu?",
+          "chosen": "C",
+          "correct": "B",
+          "isCorrect": false,
+          "pointsEarned": 0,
+          "maxPoints": 5,
+          "solution": "S = a^2 = 6^2 = 36 cm2."
+        }
+      ]
+    },
+    {
+      "id": "sub_1792922781562_b813a2b3",
+      "quizId": "quiz_1792922781553_105b7c15",
+      "studentName": "Nguyễn Văn Anh",
+      "sessionToken": "b0a3a7e6bbfb3db1ca73b6980ee4ff8f",
+      "startedAt": "2026-10-25T10:06:21.562Z",
+      "lastHeartbeatAt": "2026-10-25T10:06:21.562Z",
+      "durationSeconds": 180,
+      "status": "submitted",
+      "answers": {
+        "q1": "A",
+        "q2": "B"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "correctCount": 2,
+      "totalQuestions": 2,
+      "passedThreshold": true,
+      "submittedAt": "2026-10-25T10:06:21.566Z",
+      "details": [
+        {
+          "questionId": "q1",
+          "questionText": "Cho phản ứng 2H₂ + O₂ → 2H₂O. Tỉ lệ số phân tử H₂ : O₂ là?",
+          "chosen": "A",
+          "correct": "A",
+          "isCorrect": true,
+          "pointsEarned": 5,
+          "maxPoints": 5,
+          "solution": "Theo phương trình hóa học, hệ số H2 là 2, O2 là 1. Tỉ lệ là 2:1."
+        },
+        {
+          "questionId": "q2",
+          "questionText": "Diện tích hình vuông cạnh a = 6 cm bằng bao nhiêu?",
+          "chosen": "B",
+          "correct": "B",
+          "isCorrect": true,
+          "pointsEarned": 5,
+          "maxPoints": 5,
+          "solution": "S = a^2 = 6^2 = 36 cm2."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-25T10:06:21.575Z"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "QUIZ PRO – Tạo Đề và Thi Online",
+  "description": "Hệ thống tạo đề trắc nghiệm từ file Word, quản lý thi và chấm điểm online bảo mật dành cho giáo viên và học sinh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
